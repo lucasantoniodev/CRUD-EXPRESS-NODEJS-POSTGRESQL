@@ -1,5 +1,4 @@
-<body>
-    <h1>CRUD com Node.JS & Banco de dados</h2>
+    <h1>CRUD com Node.JS & Banco de dados</h1>
         <p>Aplicação Back-end utilizando a biblioteca Express e integrando com o banco de dados Postgres</p>
 
         <h2>Instalando dependências inicias</h2>
@@ -29,4 +28,4 @@
                 yarn add -D ts-node-dev
             </li>
         </ul>
-</body>
+
