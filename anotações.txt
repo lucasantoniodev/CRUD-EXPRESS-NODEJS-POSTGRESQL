@@ -1,0 +1,1 @@
+* Migrations: histórico do que está fazendo no banco de dados (criação, remoção de coluna...)

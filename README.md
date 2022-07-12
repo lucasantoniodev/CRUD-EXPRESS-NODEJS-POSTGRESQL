@@ -1,7 +1,7 @@
 <div>
     <h1>CRUD com Node.JS & Banco de dados</h2>
-<<<<<<< HEAD
         <p>Aplicação Back-end utilizando a biblioteca Express, TypeORM e integrando com o banco de dados Postgres</p>
+        <p style="font-size: 10px;">Referência: https://youtu.be/9AO2hZJsHrs</p>
         <div>
             <h2>Instalando dependências inicias</h2>
             <ul>
@@ -29,6 +29,10 @@
                     <!-- Ferramenta para facilitar no desenvolvimento, une 3 em 1, tsc(converte o código ts -> js) + node(executa o código) + nodemon(Observa mudanças) -->
                     yarn add -D ts-node-dev
                 </li>
+                <!-- Ferramenta para importar variáveis do arquivo .env -->
+                <li>
+                    yarn add dotenv
+                </li>
             </ul>
         </div>
         <div>
@@ -43,9 +47,26 @@
                 <li>yarn add pg</li>
             </ul>
             <p>É necessário habilitar os decorators nas configurações do typescript</p>
+            <p>"emitDecoratorMetadata": true</p>
+            <p>"experimentalDecorators": true</p>
+        </div>
+        <div>
+            <h2>Configurando o Docker (postgres)</h2>
+            <p>No meu caso estou utilizando o docker para subir o Postgres.</p>
+            <p>* Precisa do Docker e Docker-compose instalado</p>
+            <ol>           
+                <!-- Este arquivo tem as configurações necessárias para subir um postgres -->
+                <li>Criando o arquivo docker-compose.yml (https://prnt.sc/WipQ5vjeZkY2)</li>
+                <li>docker-compose up -d</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Configurando o TypeORM</h2>
             <ol>
-                <ul>"emitDecoratorMetadata": true</ul>
-                <ul>"experimentalDecorators": true</ul>
+                <li>Criando arquivo de variável de ambiente .env na raíz (https://prnt.sc/DiLtUqgh7Tlo)</li>
+                <li>Criar um arquivo para configurar o banco de dados src/database/config/AppDataSource</li>
+                <!-- Para rodar o TypeORM dentro da aplicação precisa utilizar a ferramenta CLI -->
+                <li>Adicionando Script no package.json: "typeorm": "ts-node-dev  node_modules/typeorm/cli.js"</li>
             </ol>
         </div>
 </div>
