@@ -1,7 +1,7 @@
 <div>
     <h1>CRUD com Node.JS & Banco de dados</h2>
         <p>Aplicação Back-end utilizando a biblioteca Express, TypeORM e integrando com o banco de dados Postgres</p>
-        <p style="font-size: 10px;">Referência: https://youtu.be/9AO2hZJsHrs</p>
+        <p style="font-size: 10px;">Referência rocketseat: https://youtu.be/9AO2hZJsHrs</p>
         <div>
             <h2>Instalando dependências inicias</h2>
             <ul>
@@ -74,7 +74,7 @@
         <!-- Criando migrations -->
         <div>
             <h2>Criando e preparando as migrations (Estrutura do banco de dados)</h2>
-            <p>Criado arquivo obrigatório para executar o TypeORM Datasource</p>
+            <p>Criando arquivo obrigatório para executar o TypeORM Datasource</p>
             <ol>
                 <li>Minhas configs: https://prnt.sc/NToJpMzkPXUs</li>
             </ol>
@@ -94,5 +94,18 @@
                     src/database/data-source.ts"</li>
             </ol>
             <p>Estrutura: https://prnt.sc/KtQHejju9ig3</p>
+        </div>
+        <!-- Criando entidades para atribuir valores no banco de dados -->
+        <div>
+            <h2>Criando entidades para criar valores no banco de dados</h2>
+            <p>Instalando dependência do uuint (Não obrigatório, apenas para criar um uuint aleatório caso necessário)</p>
+            <ol>
+                <li>yarn add uuint</li>
+                <li>yarn add -D @types/uuint</li>
+            </ol>
+            <p>Criando entidade Category: https://prnt.sc/xhn7jWQn7QOE</p>
+            <p>Criando entidade Video: https://prnt.sc/9Owvk7BWxtZv</p>
+            <p>Criando novas variáveis de ambiente: https://prnt.sc/3L1Ac3CtzZLr</p>
+            <p>Atribuindo o caminho das entidades no DATASOURCE: https://prnt.sc/l2LVIo6vYfv7</p>
         </div>
 </div>

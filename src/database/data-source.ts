@@ -10,11 +10,7 @@ export const AppDataSource = new DataSource({
     password: process.env.TYPEORM_PASSWORD,
     database: process.env.TYPEORM_DATABASE,
     migrations: [process.env.TYPEORM_MIGRATIONS],
-    // subscribers: [],
-    // synchronize: true,
-    // logging: false,
-    // entities: [User],
-
+    entities: [process.env.TYPEORM_ENTITIES]
 });
 
 AppDataSource.initialize().then(async () => {
@@ -23,15 +19,3 @@ AppDataSource.initialize().then(async () => {
 
 
 }).catch(error => console.log(error))
-
-
-// const user = new User()
-    // user.firstName = "Daniel"
-    // user.lastName = "Craig"
-    // user.age = 50
-    // await AppDataSource.manager.save(user)
-    // console.log("Saved a new user with id: " + user.id)
-
-    // console.log("Loading users from the database...")
-    // const users = await AppDataSource.manager.find(User)
-    // console.log("Loaded users: ", users)
