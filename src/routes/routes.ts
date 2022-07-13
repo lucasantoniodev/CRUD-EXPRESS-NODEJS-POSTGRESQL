@@ -1,13 +1,11 @@
-import { Request, response, Router } from "express";
+import { Router } from "express";
 import { CategoryController } from "../controllers/CreateCategoryController";
+import { getAllCategoriesController } from "../controllers/GetAllCategoriesController";
 
 const routes = Router();
 
-routes.get("/", (request: Request, response) => {
-    console.log(request.body)
-    return response.send("Welcome!")
-});
+routes.get("/categories", getAllCategoriesController.handle);
 
-routes.post("/categories", CategoryController.handle)
+routes.post("/categories", CategoryController.handle);
 
 export { routes }

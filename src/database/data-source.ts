@@ -15,20 +15,8 @@ export const AppDataSource = new DataSource({
     logging: false
 });
 
-AppDataSource.initialize().then(async () => {
+AppDataSource.initialize().then(() => {
 
     console.log("Running database...")
 
-
 }).catch(error => console.log(error))
-
-// const user = new User()
-    // user.firstName = "Daniel"
-    // user.lastName = "Craig"
-    // user.age = 50
-    // await AppDataSource.manager.save(user)
-    // console.log("Saved a new user with id: " + user.id)
-
-    // console.log("Loading users from the database...")
-    // const users = await AppDataSource.manager.find(User)
-    // console.log("Loaded users: ", users)

@@ -4,6 +4,7 @@ import express from "express";
 import "./database/data-source"
 import { routes } from "./routes/routes";
 
+
 const app = express();
 
 app.use(express.json())

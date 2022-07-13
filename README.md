@@ -66,7 +66,7 @@
             <h2>Configurando o TypeORM</h2>
             <ol>
                 <li>Criando arquivo de variável de ambiente .env na raíz (https://prnt.sc/DiLtUqgh7Tlo)</li>
-                <li>Criar um arquivo para configurar o banco de dados src/database/config/AppDataSource</li>
+                <li>Criar inicializador do banco de dados https://prnt.sc/uJwYXyWxuBSa e depois importar no inedx</li>
                 <!-- Para rodar o TypeORM dentro da aplicação precisa utilizar a ferramenta CLI -->
                 <li>Adicionando Script no package.json: "typeorm": "ts-node-dev node_modules/typeorm/cli.js"</li>
             </ol>
@@ -111,17 +111,20 @@
         <!-- Criando camada de Serviços -->
         <div>
             <h2>Camada de serviços da aplicação</h2>
-            <p>Configurações da CategoryService: https://prnt.sc/lWTCEyDpz-Q4</p>
+            <p>CategoryService: https://prnt.sc/lWTCEyDpz-Q4</p>
+            <p>GetAllCategoriesService: https://prnt.sc/-1KyXwyxcTuL</p>
         </div>
         <!-- Criando camada de Controllers -->
         <div>
             <h2>Camada de controllers</h2>
-            <p>Configurações da CategoryController: https://prnt.sc/D9_XB4pOF2QT</p>
+            <p>CategoryController: https://prnt.sc/D9_XB4pOF2QT</p>
+            <p>GetAllCategoriesController: https://prnt.sc/Ux9GugZZ7x79</p>
         </div>
         <!-- Criando camada de Rotas -->
         <div>
             <h2>Rotas da aplicação</h2>
-            <p>Configurações da rota "/categories": https://prnt.sc/eNp68Cuu3NRZ</p>
+            <p>Rota (Post) "/categories": https://prnt.sc/eNp68Cuu3NRZ</p>
+            <p>Rota (GET) "/categories": https://prnt.sc/NvWQrDvqEgsK</p>
             <p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
         </div>
 </div>
