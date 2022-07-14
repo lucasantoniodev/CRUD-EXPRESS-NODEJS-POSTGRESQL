@@ -17,4 +17,4 @@ class CreateCategoryController {
     }
 }
 
-export const CategoryController = new CreateCategoryController()
+export const createCategoryController = new CreateCategoryController()
