@@ -12,7 +12,7 @@ class CreateCategoryController {
         if (result instanceof Error) {
             return response.status(400).json(result.message)
         }
-        console.log(result)
+       
         return response.json(result)
     }
 }

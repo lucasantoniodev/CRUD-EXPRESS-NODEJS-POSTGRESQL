@@ -5,7 +5,7 @@ import { IDataSource } from "../interfaces/DataSource_interface";
 export class GetAllCategoriesService {
     async execute(dataSource: IDataSource): Promise<Category[] | Error> {
         try {
-            const repo = dataSource.manager.getRepository(Category)
+            const repo = dataSource.getRepository(Category)
             const categories = repo.find()
             return categories;
 

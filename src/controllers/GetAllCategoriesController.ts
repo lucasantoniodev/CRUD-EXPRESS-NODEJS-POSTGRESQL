@@ -7,8 +7,12 @@ class GetAllCategoriesController {
     async handle(request: Request, response: Response) {
 
         const service = new GetAllCategoriesService();
-        const categories = await service.execute(AppDataSource);
-        return response.json(categories);
+        const result = await service.execute(AppDataSource);
+        
+        if (result instanceof Error) {
+            return response.status(400).json(result.message)
+        }
+        return response.json(result).status(200);
 
     }
 }
