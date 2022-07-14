@@ -79,9 +79,12 @@
                 <li>Minhas configs: https://prnt.sc/NToJpMzkPXUs</li>
             </ol>
             <!-- yarn typeorm migration:create + directório da pasta onde ficará armazenada as migrations  -->
-            <p>Criar migration CreateCategories: yarn typeorm migration:create src/database/migrations/CreateCategories</p>
+            <p>Criar migration CreateCategories: yarn typeorm migration:create src/database/migrations/CreateCategories
+            </p>
             <p>Configuração migration CreateCategories: https://prnt.sc/3ArMyW5dNpd2</p>
-            <p>Criar migration CreateVideos: <p>Criar migration CreateCategories: yarn typeorm migration:create src/database/migrations/CreateVideos</p></p>
+            <p>Criar migration CreateVideos:
+            <p>Criar migration CreateCategories: yarn typeorm migration:create src/database/migrations/CreateVideos</p>
+            </p>
             <p>Configuração da migration CreateVideos: https://prnt.sc/vvBvTNTW_9Vx</p>
             <!-- Execução das migrations -->
             <p>Executando a migration: yarn typeorm migration:run -d src/database/data-source.ts</p>
@@ -98,7 +101,8 @@
         <!-- Criando entidades para atribuir valores no banco de dados -->
         <div>
             <h2>Criando entidades para criar valores no banco de dados</h2>
-            <p>Instalando dependência do uuint (Não obrigatório, apenas para criar um uuint aleatório caso necessário)</p>
+            <p>Instalando dependência do uuint (Não obrigatório, apenas para criar um uuint aleatório caso necessário)
+            </p>
             <ol>
                 <li>yarn add uuint</li>
                 <li>yarn add -D @types/uuint</li>
@@ -119,6 +123,7 @@
             <!-- Camada de Vídeos -->
             <p>CreateVideoService: https://prnt.sc/0JNx8h9XAS9D</p>
             <p>GetAllVideosService: https://prnt.sc/NBx6ka13dy0p</p>
+            <p>DeleteVideoService: https://prnt.sc/QsyeAKNqppCy</p>
         </div>
         <!-- Criando camada de Controllers -->
         <div>
@@ -128,9 +133,10 @@
             <p>GetAllCategoriesController: https://prnt.sc/Ux9GugZZ7x79</p>
             <p>DeleteCategoryController: https://prnt.sc/SG_RY8miMFA4</p>
             <p>UpdateCategoryController: https://prnt.sc/e3X9yKOO-RN_</p>
-             <!-- Camada de Vídeos -->
+            <!-- Camada de Vídeos -->
             <p>CreateVideoController: https://prnt.sc/QpDVFgLexidZ</p>
             <p>GetAllVideosController: https://prnt.sc/TjHuvk0qgjGR</p>
+            <p>DeleteVideoController: https://prnt.sc/_CldiyAgQCaI</p>
         </div>
         <!-- Criando camada de Rotas -->
         <div>
@@ -143,6 +149,7 @@
             <!-- Camada de Vídeos -->
             <p>Rota (POST) "/videos": https://prnt.sc/sM7OU4DjOq4N</p>
             <p>Rota (GET) "/videos": https://prnt.sc/FxVLIdvCLJGN</p>
-            p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
+            <p>Rota (DELETE) "/video/:id": https://prnt.sc/GMhJa1Dg97oU</p>
+            <p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
         </div>
 </div>
