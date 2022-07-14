@@ -118,6 +118,7 @@
             <p>UpdateCategoryService: https://prnt.sc/yOUzkcodumHx</p>
             <!-- Camada de Vídeos -->
             <p>CreateVideoService: https://prnt.sc/0JNx8h9XAS9D</p>
+            <p>GetAllVideosService: https://prnt.sc/NBx6ka13dy0p</p>
         </div>
         <!-- Criando camada de Controllers -->
         <div>
@@ -129,6 +130,7 @@
             <p>UpdateCategoryController: https://prnt.sc/e3X9yKOO-RN_</p>
              <!-- Camada de Vídeos -->
             <p>CreateVideoController: https://prnt.sc/QpDVFgLexidZ</p>
+            <p>GetAllVideosController: https://prnt.sc/TjHuvk0qgjGR</p>
         </div>
         <!-- Criando camada de Rotas -->
         <div>
@@ -140,6 +142,7 @@
             <p>Rota (PUT) "/category/:id": https://prnt.sc/GcbTv5tMua4y</p>
             <!-- Camada de Vídeos -->
             <p>Rota (POST) "/videos": https://prnt.sc/sM7OU4DjOq4N</p>
-            <p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
+            <p>Rota (GET) "/videos": https://prnt.sc/FxVLIdvCLJGN</p>
+            p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
         </div>
 </div>
