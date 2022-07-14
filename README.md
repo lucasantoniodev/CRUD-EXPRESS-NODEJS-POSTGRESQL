@@ -155,4 +155,8 @@
             <p>Rota (DELETE) "/video/:id": https://prnt.sc/GMhJa1Dg97oU</p>
             <p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
         </div>
+        <div>
+            <h2>Estrutura do POSTMAN</h2>
+            <p>Estrutura: https://prnt.sc/ZADxfi5UOlwO</p>
+        </div>
 </div>
