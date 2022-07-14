@@ -114,6 +114,7 @@
             <p>CategoryService: https://prnt.sc/lWTCEyDpz-Q4</p>
             <p>GetAllCategoriesService: https://prnt.sc/-1KyXwyxcTuL</p>
             <p>DeleteCategoryService: https://prnt.sc/NIZfh3T5y9ks</p>
+            <p>UpdateCategoryService: https://prnt.sc/yOUzkcodumHx</p>
         </div>
         <!-- Criando camada de Controllers -->
         <div>
@@ -121,6 +122,7 @@
             <p>CategoryController: https://prnt.sc/D9_XB4pOF2QT</p>
             <p>GetAllCategoriesController: https://prnt.sc/Ux9GugZZ7x79</p>
             <p>DeleteCategoryController: https://prnt.sc/SG_RY8miMFA4</p>
+            <p>UpdateCategoryController: https://prnt.sc/e3X9yKOO-RN_</p>
         </div>
         <!-- Criando camada de Rotas -->
         <div>
@@ -128,6 +130,7 @@
             <p>Rota (Post) "/categories": https://prnt.sc/eNp68Cuu3NRZ</p>
             <p>Rota (GET) "/categories": https://prnt.sc/NvWQrDvqEgsK</p>
             <p>Rota (DELETE) "/category/:id": https://prnt.sc/go8LMpd3V2Ia</p>
+            <p>Rota (PUT) "/category/:id": https://prnt.sc/GcbTv5tMua4y</p>
             <!--  -->
             <p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
         </div>

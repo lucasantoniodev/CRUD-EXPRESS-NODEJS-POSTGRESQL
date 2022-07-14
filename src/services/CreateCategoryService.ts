@@ -6,7 +6,6 @@ type CategoryRequest = {
     description: string;
 }
 
-
 export class CreateCategoryService {
     async execute({
         name,

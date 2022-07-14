@@ -10,10 +10,9 @@ export class DeleteCategoryService {
             if (!await repo.findOneBy({ id: id })) {
                 return new Error("Category does not exists!")
             }
-
-            const deleted = await repo.delete({ id: id })
-            console.log(deleted)
-
+            
+            await repo.delete({ id: id })
+           
         } catch (error) {
             return new Error(error)
         }
