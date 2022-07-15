@@ -37,7 +37,7 @@ export class CreateVideos1657679330785 implements MigrationInterface {
                 ],
                 foreignKeys: [
                     {
-                        name: "fk_videos_catory",
+                        name: "fk_videos_category",
                         columnNames: ["category_id"], // QUAL É A COLUNA DENTRO DA TABELA QUE ESTÁ CRIANDO
                         referencedTableName: "categories", // NOME DA TABELA NA QUAL VAI FAZER O RELACIONAMENTO
                         referencedColumnNames: ["id"] // NOME DA COLUNA QUE VAI SER A REFERÊNCIA

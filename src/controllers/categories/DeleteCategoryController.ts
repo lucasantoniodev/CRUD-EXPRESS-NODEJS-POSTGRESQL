@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { AppDataSource } from "../database/data-source";
-import { DeleteCategoryService } from "../services/categories/DeleteCategoryService";
+import { AppDataSource } from "../../database/data-source";
+import { DeleteCategoryService } from "../../services/categories/DeleteCategoryService";
 
 class DeleteCategoryController {
     async handle(request: Request, response: Response) {

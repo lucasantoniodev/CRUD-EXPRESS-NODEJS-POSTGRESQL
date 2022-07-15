@@ -7,6 +7,7 @@ import { getAllCategoriesController } from "../controllers/categories/GetAllCate
 import { getAllVideosController } from "../controllers/videos/GetAllVideosController";
 import { updateCategoryController } from "../controllers/categories/UpdateCategoryController";
 import { updateVideoController } from "../controllers/videos/UpdateVideoController";
+import { getVideoController } from "../controllers/videos/GetVideoController";
 
 const routes = Router();
 /**
@@ -25,6 +26,7 @@ routes.delete("/category/:id", deleteCategoryController.handle);
 // Rotas referente aos vídeos.
 routes.post("/videos", createVideoController.handle);
 routes.get("/videos", getAllVideosController.handle);
+routes.get("/video/:id", getVideoController.handle);
 routes.put("/video/:id", updateVideoController.handle);
 routes.delete("/video/:id", deleteVideoController.handle);
 

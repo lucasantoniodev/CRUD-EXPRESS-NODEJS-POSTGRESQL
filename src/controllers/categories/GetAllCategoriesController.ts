@@ -2,7 +2,6 @@ import { Request, Response } from "express";
 import { AppDataSource } from "../../database/data-source";
 import { GetAllCategoriesService } from "../../services/categories/GetAllCategoriesService";
 
-
 class GetAllCategoriesController {
     async handle(request: Request, response: Response) {
 

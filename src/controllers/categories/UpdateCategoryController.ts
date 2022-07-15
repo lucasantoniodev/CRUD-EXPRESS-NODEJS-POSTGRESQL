@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
-import { AppDataSource } from "../database/data-source";
-import { UpdateCategoryService } from "../services/categories/UpdateCategoryService";
+import { AppDataSource } from "../../database/data-source";
+import { UpdateCategoryService } from "../../services/categories/UpdateCategoryService";
+
 
 class UpdateCategoryController {
     async handle(request: Request, response: Response) {
