@@ -68,7 +68,7 @@
                 <li>Criando o arquivo docker-compose.yml (https://prnt.sc/WipQ5vjeZkY2)</li>
                 <li>docker-compose up -d</li>
                 <li>Acessando psql pelo docker: docker exec -it NOMEDOCONTAINER psql -U USERNAME</li>
-                <li>Criando um DB: CREATE DATABASE NOMEDOSEUBANCODEDADOS</li>
+                <li>Criando um DB: CREATE DATABASE NOMEDOSEUBANCODEDADOS;</li>
             </ol>
         </div>
         <!-- Criando migrations -->
