@@ -51,6 +51,15 @@
             <p>"experimentalDecorators": true</p>
         </div>
         <div>
+            <h2>Configurando o TypeORM</h2>
+            <ol>
+                <li>Criando arquivo de variável de ambiente .env na raíz (https://prnt.sc/DiLtUqgh7Tlo)</li>
+                <li>Criar inicializador do banco de dados https://prnt.sc/uJwYXyWxuBSa e depois importar no index/server</li>
+                <!-- Para rodar o TypeORM dentro da aplicação precisa utilizar a ferramenta CLI -->
+                <li>Adicionando Script no package.json: "typeorm": "ts-node-dev node_modules/typeorm/cli.js"</li>
+            </ol>
+        </div>
+        <div>
             <h2>Configurando o Docker (postgres)</h2>
             <p>No meu caso estou utilizando o docker para subir o Postgres.</p>
             <p>* Precisa do Docker e Docker-compose instalado</p>
@@ -60,15 +69,6 @@
                 <li>docker-compose up -d</li>
                 <li>Acessando psql pelo docker: docker exec -it NOMEDOCONTAINER psql -U USERNAME</li>
                 <li>Criando um DB: CREATE DATABASE NOMEDOSEUBANCODEDADOS</li>
-            </ol>
-        </div>
-        <div>
-            <h2>Configurando o TypeORM</h2>
-            <ol>
-                <li>Criando arquivo de variável de ambiente .env na raíz (https://prnt.sc/DiLtUqgh7Tlo)</li>
-                <li>Criar inicializador do banco de dados https://prnt.sc/uJwYXyWxuBSa e depois importar no inedx</li>
-                <!-- Para rodar o TypeORM dentro da aplicação precisa utilizar a ferramenta CLI -->
-                <li>Adicionando Script no package.json: "typeorm": "ts-node-dev node_modules/typeorm/cli.js"</li>
             </ol>
         </div>
         <!-- Criando migrations -->
