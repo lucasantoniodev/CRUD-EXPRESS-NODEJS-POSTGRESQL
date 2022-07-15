@@ -13,18 +13,19 @@ export class CreateCategoryService {
         description
     }: CategoryRequest, database: DatabaseInterface): Promise<Category | Error> {
 
-        const repository = new CategoryRepository(database)
+        const repository = new CategoryRepository(database);
 
         if (await repository.find({ name: name })) {
-            return new Error("Category already exists!")
+            return new Error("Category already exists!");
         }
 
+
         try {
-            const category = await repository.create(name, description)
-            const categoryStored = await repository.save(category)
-            return category
+            const category = await repository.create(name, description);
+            const categoryStored = await repository.save(category);
+            return categoryStored
         } catch (error) {
-            return new Error(error)
+            return new Error(error);
         }
 
     }

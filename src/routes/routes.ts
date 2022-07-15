@@ -1,12 +1,12 @@
 import { Router } from "express";
 import { createCategoryController } from "../controllers/categories/CreateCategoryController";
 import { createVideoController } from "../controllers/videos/CreateVideoController";
-import { deleteCategoryController } from "../controllers/DeleteCategoryController";
-import { deleteVideoController } from "../controllers/DeleteVideoController";
+import { deleteCategoryController } from "../controllers/categories/DeleteCategoryController";
+import { deleteVideoController } from "../controllers/videos/DeleteVideoController";
 import { getAllCategoriesController } from "../controllers/categories/GetAllCategoriesController";
-import { getAllVideosController } from "../controllers/GetAllVideosController";
-import { updateCategoryController } from "../controllers/UpdateCategoryController";
-import { updateVideoController } from "../controllers/UpdateVideoController";
+import { getAllVideosController } from "../controllers/videos/GetAllVideosController";
+import { updateCategoryController } from "../controllers/categories/UpdateCategoryController";
+import { updateVideoController } from "../controllers/videos/UpdateVideoController";
 
 const routes = Router();
 /**
