@@ -1,5 +1,6 @@
-import { Category } from "../entities/Category"
-import { IDataSource } from "../interfaces/DataSource_interface"
+import { Category } from "../../entities/Category"
+import { DatabaseInterface } from "../../interfaces/database/Database_interface";
+import { CategoryRepository } from "../../repositories/Category_repository";
 
 type CategoryUpdateRequest = {
     id: string;
@@ -8,10 +9,11 @@ type CategoryUpdateRequest = {
 }
 
 export class UpdateCategoryService {
-    async execute({ id, name, description }: CategoryUpdateRequest, dataSource: IDataSource) {
+    async execute({ id, name, description }: CategoryUpdateRequest, database: DatabaseInterface) {
         try {
-            const repo = dataSource.getRepository(Category)
-            const category = await repo.findOneBy({ id: id });
+            const repository = new CategoryRepository(database)
+
+            const category = await repository.find({ id: id });
 
             if (!category) {
                 return new Error("Category does not exists!")
@@ -20,7 +22,7 @@ export class UpdateCategoryService {
             category.name = name ? name : category.name;
             category.description = description ? description : category.name
 
-            await repo.save(category)
+            await repository.save(category)
 
             return category
 

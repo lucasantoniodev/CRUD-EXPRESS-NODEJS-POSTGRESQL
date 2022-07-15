@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { AppDataSource } from "../database/data-source";
-import { GetAllCategoriesService } from "../services/GetAllCategoriesService";
+import { AppDataSource } from "../../database/data-source";
+import { GetAllCategoriesService } from "../../services/categories/GetAllCategoriesService";
 
 
 class GetAllCategoriesController {

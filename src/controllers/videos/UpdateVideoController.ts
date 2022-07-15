@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { AppDataSource } from "../database/data-source";
-import { UpdateVideoService } from "../services/UpdateVideoService";
+import { UpdateVideoService } from "../services/videos/UpdateVideoService";
 
 class UpdateVideoController {
     async handle(request: Request, response: Response) {

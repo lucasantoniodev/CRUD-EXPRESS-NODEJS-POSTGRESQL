@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { AppDataSource } from "../database/data-source";
-import { DeleteVideoService } from "../services/DeleteVideoService";
+import { DeleteVideoService } from "../services/videos/DeleteVideoService";
 
 class DeleteVideoController {
     async handle(request: Request, response: Response) {

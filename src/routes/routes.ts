@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { createCategoryController } from "../controllers/CreateCategoryController";
-import { createVideoController } from "../controllers/CreateVideoController";
+import { createCategoryController } from "../controllers/categories/CreateCategoryController";
+import { createVideoController } from "../controllers/videos/CreateVideoController";
 import { deleteCategoryController } from "../controllers/DeleteCategoryController";
 import { deleteVideoController } from "../controllers/DeleteVideoController";
-import { getAllCategoriesController } from "../controllers/GetAllCategoriesController";
+import { getAllCategoriesController } from "../controllers/categories/GetAllCategoriesController";
 import { getAllVideosController } from "../controllers/GetAllVideosController";
 import { updateCategoryController } from "../controllers/UpdateCategoryController";
 import { updateVideoController } from "../controllers/UpdateVideoController";
