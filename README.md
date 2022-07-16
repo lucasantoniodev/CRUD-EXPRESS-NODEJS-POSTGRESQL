@@ -146,12 +146,13 @@
         <div>
             <h2>Rotas da aplicação</h2>
             <!-- Camada de Categoria -->
+            <h3>Camada de Categoria</h3>
             <p>Rota (Post) "/categories": https://prnt.sc/eNp68Cuu3NRZ</p>
             <p>Rota (GET) "/categories": https://prnt.sc/NvWQrDvqEgsK</p>
             <p>Rota (DELETE) "/category/:id": https://prnt.sc/go8LMpd3V2Ia</p>
             <p>Rota (PUT) "/category/:id": https://prnt.sc/GcbTv5tMua4y</p>
             <!-- Camada de Vídeos -->
-            <h3>Cama de Vídeos</h3>
+            <h3>Camada de Vídeo</h3>
             <p>Rota (POST) "/videos": https://prnt.sc/sM7OU4DjOq4N</p>
             <p>Rota (GET) "/videos": https://prnt.sc/FxVLIdvCLJGN</p>
             <p>Rota (GET) "/video/:id": https://prnt.sc/RE22iTCtxA-y</p>
