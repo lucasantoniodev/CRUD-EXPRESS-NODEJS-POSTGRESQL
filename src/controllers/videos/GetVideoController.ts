@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { AppDataSource } from "../../database/data-source";
-import { GetVideoService } from "../../services/videos/GetlVideoService";
+import { GetVideoService } from "../../services/videos/GetVideoService";
 
 class GetVideoController {
     async handle(request: Request, response: Response) {

@@ -122,6 +122,7 @@
             <p>DeleteCategoryService: https://prnt.sc/NIZfh3T5y9ks</p>
             <!-- Camada de Vídeos -->
             <p>CreateVideoService: https://prnt.sc/0JNx8h9XAS9D</p>
+            <p>GetVideoService: https://prnt.sc/zR6lsCsV9GLm</p>
             <p>GetAllVideosService: https://prnt.sc/NBx6ka13dy0p</p>
             <p>UpdateVideoService: https://prnt.sc/TTndF0wSLvHx</p>
             <p>DeleteVideoService: https://prnt.sc/QsyeAKNqppCy</p>
@@ -136,6 +137,7 @@
             <p>UpdateCategoryController: https://prnt.sc/e3X9yKOO-RN_</p>
             <!-- Camada de Vídeos -->
             <p>CreateVideoController: https://prnt.sc/QpDVFgLexidZ</p>
+            <p>GetVideoController: https://prnt.sc/hTb4XHE8sAVC</p>
             <p>GetAllVideosController: https://prnt.sc/TjHuvk0qgjGR</p>
             <p>UpdateVideoController: https://prnt.sc/KmvcDRUxp6DJ</p>
             <p>DeleteVideoController: https://prnt.sc/_CldiyAgQCaI</p>
@@ -151,12 +153,13 @@
             <!-- Camada de Vídeos -->
             <p>Rota (POST) "/videos": https://prnt.sc/sM7OU4DjOq4N</p>
             <p>Rota (GET) "/videos": https://prnt.sc/FxVLIdvCLJGN</p>
+            <p>Rota (GET) "/video/:id": https://prnt.sc/RE22iTCtxA-y</p>
             <p>Rota (UPDATE) "/video/:id": https://prnt.sc/_4H0mqM2zrxR</p>
             <p>Rota (DELETE) "/video/:id": https://prnt.sc/GMhJa1Dg97oU</p>
             <p>Habilitando rota no arquivo principal "server.ts": https://prnt.sc/FT3WldAOoEfn</p>
         </div>
         <div>
             <h2>Estrutura do POSTMAN</h2>
-            <p>Estrutura: https://prnt.sc/ZADxfi5UOlwO</p>
+            <p>Estrutura: https://prnt.sc/I5BsLEthafLb</p>
         </div>
 </div>
